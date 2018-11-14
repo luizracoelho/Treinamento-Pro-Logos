@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Service", "1 - Service", "{4FB9945D-4510-42A2-94C6-A8D89F00454E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Business Logic", "2 - Business Logic", "{7CFD0927-5B82-49D2-8A94-EF417953B489}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{60B86214-38EF-4EC0-8D92-8182D59EEB48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Data Access", "4 - Data Access", "{D5F2E5C3-812E-4FB5-BB81-11DC27D21E67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProLogos", "ProLogos\ProLogos.csproj", "{11AD261A-DEF1-4D4E-9D61-059C14A5172B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProLogos.DAL", "ProLogos.DAL\ProLogos.DAL.csproj", "{FD209F34-379D-44C3-8843-162A4FEC96F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProLogos.BLL", "ProLogos.BLL\ProLogos.BLL.csproj", "{B6A52B18-DD5C-4801-B7BE-415DD4C8C03C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProLogos.API", "ProLogos.API\ProLogos.API.csproj", "{993212FB-34D4-4192-8B7D-5579B9838151}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11AD261A-DEF1-4D4E-9D61-059C14A5172B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11AD261A-DEF1-4D4E-9D61-059C14A5172B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11AD261A-DEF1-4D4E-9D61-059C14A5172B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11AD261A-DEF1-4D4E-9D61-059C14A5172B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD209F34-379D-44C3-8843-162A4FEC96F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD209F34-379D-44C3-8843-162A4FEC96F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD209F34-379D-44C3-8843-162A4FEC96F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD209F34-379D-44C3-8843-162A4FEC96F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A52B18-DD5C-4801-B7BE-415DD4C8C03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A52B18-DD5C-4801-B7BE-415DD4C8C03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A52B18-DD5C-4801-B7BE-415DD4C8C03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A52B18-DD5C-4801-B7BE-415DD4C8C03C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{993212FB-34D4-4192-8B7D-5579B9838151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993212FB-34D4-4192-8B7D-5579B9838151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993212FB-34D4-4192-8B7D-5579B9838151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993212FB-34D4-4192-8B7D-5579B9838151}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11AD261A-DEF1-4D4E-9D61-059C14A5172B} = {60B86214-38EF-4EC0-8D92-8182D59EEB48}
+		{FD209F34-379D-44C3-8843-162A4FEC96F3} = {D5F2E5C3-812E-4FB5-BB81-11DC27D21E67}
+		{B6A52B18-DD5C-4801-B7BE-415DD4C8C03C} = {7CFD0927-5B82-49D2-8A94-EF417953B489}
+		{993212FB-34D4-4192-8B7D-5579B9838151} = {4FB9945D-4510-42A2-94C6-A8D89F00454E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC2E6630-2488-4AD9-A9D2-4BA62C6B2983}
+	EndGlobalSection
+EndGlobal
