@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.5" />
+    <PackageReference Include="Dapper.FluentMap" Version="1.7.0" />
+    <PackageReference Include="Dapper.FluentMap.Dommel" Version="1.6.0" />
+    <PackageReference Include="Dommel" Version="1.10.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProLogos\ProLogos.csproj" />
+  </ItemGroup>
+
+</Project>
